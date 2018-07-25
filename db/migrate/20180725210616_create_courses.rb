@@ -3,7 +3,7 @@ class CreateCourses < ActiveRecord::Migration[5.2]
   	#chaque cours a un titre et une description
     create_table :courses do |t|
     	t.string :title
-    	t.text :description 
+    	t.string :description 
     	t.timestamps
     end
   end

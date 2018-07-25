@@ -7,5 +7,5 @@ end
 #on créé 10 titres de leçons et leurs bodys  avec faker
 10.times do |index|
 	a = rand(1..10)
-	lesson = Lesson.create(title_lesson: Faker::Pokemon.name, body: Faker::Pokemon.move)
+	lesson = Lesson.create(title: Faker::Pokemon.name, body: Faker::Pokemon.move)
 end
